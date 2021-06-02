@@ -87,7 +87,7 @@ public class Main {
                                 divisi = "Web";
                             }
                             System.out.println("Nilai Akhir : " + nilaiAkhir);
-                            if (nilaiAkhir < 70) {
+                            if (nilaiAkhir < 85) {
                                 System.out.println("Keterangan : GAGAL!");
                                 System.out.println("Mohon Maaf Kepada " + nama + " Telah Ditolak Sebagai " + divisi + " Developer");
                             } else {
