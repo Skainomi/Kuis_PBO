@@ -63,13 +63,13 @@ public class Main {
                         case 1:
                             dataDiri = main.inputDataForm(1);
                             if (inputMenu == 1) {
-                                android.setNilaiTulis(Float.parseFloat(dataDiri.get(2)));
-                                android.setNilaiCoding(Float.parseFloat(dataDiri.get(2)));
+                                android.setNilaiTulis(Float.parseFloat(dataDiri.get(0)));
+                                android.setNilaiCoding(Float.parseFloat(dataDiri.get(1)));
                                 android.setNilaiWawancara(Float.parseFloat(dataDiri.get(2)));
 
                             } else {
-                                web.setNilaiTulis(Float.parseFloat(dataDiri.get(2)));
-                                web.setNilaiCoding(Float.parseFloat(dataDiri.get(2)));
+                                web.setNilaiTulis(Float.parseFloat(dataDiri.get(0)));
+                                web.setNilaiCoding(Float.parseFloat(dataDiri.get(1)));
                                 web.setNilaiWawancara(Float.parseFloat(dataDiri.get(2)));
                             }
                             break;
@@ -104,7 +104,6 @@ public class Main {
                 System.out.println("Input Tidak Valid!");
             }
         }
-
     }
 
     private String integerInput(String msg) {
